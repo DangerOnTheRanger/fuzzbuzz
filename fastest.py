@@ -1,4 +1,4 @@
-top = 10
+top = 100
 six = "Buzz\nFuzz\nFuzzBuzz\nFuzz\nBuzz\nFuzzBuzz\n"
 list = ["Buzz", "Fuzz", "FuzzBuzz", "Fuzz", "Buzz", "FuzzBuzz"]
 
