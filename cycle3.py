@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
 def main(x):
-    from itertools import cycle, repeat
-    for x,y in zip(repeat(x, x),cycle(("Buzz", "Fuzz", "FuzzBuzz", "Fuzz", "Buzz", "FuzzBuzz"))):print(y)
+    from itertools import cycle, islice
+    for x in islice(cycle(("Buzz", "Fuzz", "FuzzBuzz", "Fuzz", "Buzz", "FuzzBuzz")), x):print(x)
 main(100)
