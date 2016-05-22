@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-def main(x):
-    from itertools import cycle, islice
-    for x in islice(cycle(("Buzz", "Fuzz", "FuzzBuzz", "Fuzz", "Buzz", "FuzzBuzz")), x):print(x)
-main(100)
+from itertools import cycle, islice
+
+
+def main(n):
+    for x in islice(cycle(('Buzz', 'Fuzz', 'FuzzBuzz',
+                           'Fuzz', 'Buzz', 'FuzzBuzz')), n):
+        print(x)
+
+
+if __name__ == '__main__':
+    main(100)
