@@ -11,6 +11,6 @@ append = sequence.append
 for x in xrange(1, 101):
     # Moving the function's code to the loop body removes the function call,
     # which actually increases performance slightly
-    next = popleft()
-    append(next)
-    print next
+    next_string = popleft()
+    append(next_string)
+    print next_string
