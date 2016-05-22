@@ -18,9 +18,9 @@ def next_in_sequence():
     printing out the next string instead of returning it, and the recursion bit,
     so go see sequence.py for an explanation of what's going on here.
     """
-    next = sequence.popleft()
-    sequence.append(next)
-    print next
+    next_string = sequence.popleft()
+    sequence.append(next_string)
+    print next_string
     next_in_sequence()
 
 
