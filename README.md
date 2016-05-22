@@ -9,5 +9,5 @@ containing the correct output that you can use to test your own solutions, using
 Credits
 =======
 
-* @serprex for itertools-based solution (`cycle3.py`)
+* @serprex for itertools-based solution (`cycle3.py`) with improvements from @the-zebulan
 * @lemiant for string-based solution (`fastest.py`)
