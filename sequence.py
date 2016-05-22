@@ -16,9 +16,9 @@ def next_in_sequence():
     to keep from having to either pre-generate the entire sequence beforehand,
     or from having to use an iterator.
     """
-    next = sequence.popleft()
-    sequence.append(next)
-    return next
+    next_string = sequence.popleft()
+    sequence.append(next_string)
+    return next_string
 
 
 for x in xrange(1, 101):
